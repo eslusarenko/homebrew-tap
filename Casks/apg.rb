@@ -4,21 +4,21 @@ cask "apg" do
 
   on_macos do
     on_arm do
-      sha256 "0d1aa95c63b499528789e0e55fd5a725bfd8b2c2402cc307990c9f6d92c49d7f"
+      sha256 "cb2e9a55bf71b5c9fe6e97b44458c37e55fdb4050625d6be1e588b3c9f5f8f0f"
       url "https://github.com/eslusarenko/apg/releases/download/v#{version}/apg_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e9dad160482ce132bb1328c3329bafe16e763282f352e3246cdbd11c3bbaa93e"
+      sha256 "90c8a3b5762dc03daa0933e86f57bb911d6804e53f51ef08f42a6fcdcd9b5bdd"
       url "https://github.com/eslusarenko/apg/releases/download/v#{version}/apg_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "15c12e5d45db5ea5cb4a73bd8c2006069a3fea8be850e95d6a047e25e42dee75"
+      sha256 "a251d362e418b29be17234a583eea7f561f2b85f785535a71e991879dc727c16"
       url "https://github.com/eslusarenko/apg/releases/download/v#{version}/apg_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "42548c1e5ca3670b4b6307cc84ffbaf1e6c5db41fc2629338e81af119a21c8f5"
+      sha256 "7b9f9150746cd51028aebdbed50ce3a4eb401cdc3343ebcebf49a26b83fdbc9a"
       url "https://github.com/eslusarenko/apg/releases/download/v#{version}/apg_#{version}_linux_amd64.tar.gz"
     end
   end
